@@ -65,7 +65,7 @@ class EditProfileScreenProvoder extends StatelessWidget {
                                   AppImages.user,
 
                                 ))
-                            : CircleAvatar(radius: 55 ,
+                            : CircleAvatar(radius: 55,
                                 backgroundImage:FileImage(
                                   image!,)),
                         Positioned(
