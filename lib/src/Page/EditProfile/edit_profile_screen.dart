@@ -69,7 +69,7 @@ class EditProfileScreenProvoder extends StatelessWidget {
                                 backgroundImage: FileImage(
                                   image!,)),
                         Positioned(
-                            left: 40,
+                            left:  40,
                             top: 50,
                             child: InkWell(
                                 onTap: () {
