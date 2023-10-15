@@ -101,7 +101,7 @@ class HomeScreenProvider extends StatelessWidget {
                 const Text(AppString.skill,style: TextStyle(color: AppColors.pink,fontSize: 18,fontWeight: FontWeight.w600),),
                 Padding(padding: EdgeInsets.only(top: ScreenUtil().setHeight(8))),
                 SizedBox(height: 30,
-                  child: expirince==false? ListView.builder(scrollDirection:Axis.horizontal ,
+                  child: expirince  == false ? ListView.builder(scrollDirection:Axis.horizontal ,
                       itemCount:  state.skill!.length ,
                       itemBuilder: (context ,index) {
                         return Container(height: 35,decoration: const BoxDecoration(),child: Text(state.skill![index],style: TextStyle(fontWeight: FontWeight.w600,fontSize: 16,color: AppColors.black,),));/* Container( height: 5,decoration: BoxDecoration(color: Colors.red,borderRadius: BorderRadius.circular(10)),child: Text(skill.text![index]));*/
